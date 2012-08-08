@@ -8,7 +8,10 @@
 <body>
 
 <div id="HeadLine">
-PIAF H.M.S.
+<!-- PIAF H.M.S.-->
+
+<img src="http://netsescr.com/images/logo-para-moodle.png"/>
+
 </div>
 <div id="MenuTop">
 <a href="index.php"><img src="img/Menutop_Home.png" alt="<?php echo $MenuTop1 ?>"><?php echo $MenuTop1 ?></a>
