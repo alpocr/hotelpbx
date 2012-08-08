@@ -69,6 +69,11 @@ endif;
 
 
 echo "<h1>".$Title7."</h1>" ;
+
+$ahoraMismo = Date("r");
+
+echo "<h3>Hora del sistema: $ahoraMismo</h3>";
+
 echo "<FORM NAME=\"InsertFORM\" ACTION=\"./wakeup.php\" METHOD=POST>\n";
 echo "<CENTER><TABLE cellSpacing=0 cellPadding=0 width=500 border=0>\n" ;
 echo "<TR><TD align=\"center\">".$SecLab30."</TD><TD>".$SecLab7." ";
